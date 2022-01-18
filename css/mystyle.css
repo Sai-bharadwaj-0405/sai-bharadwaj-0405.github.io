@@ -1,0 +1,626 @@
+.topcover{
+			width:100%;	
+			margin-top:-7px;					 
+}
+
+header{
+		margin:-0.5em;
+		background-size:cover;
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+}	
+
+/* Container holding the image and the text */
+.topcover {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.logo{
+	  height:4em;
+	  margin-left:1.5em;
+	  margin-top:0.3em;  
+}	
+			
+			
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  opacity: 0.8;
+  background-color:black;
+  height:10em;
+  padding-top:5em;
+  margin-left:-15em;
+  padding-right:10em;
+  padding-left:40em;
+  
+}	
+
+.centered h1{
+  position: relative;
+  font-family:  montserrat;
+  font-size: 2.8em;
+  margin-top:-1em;
+  margin-left:4em;
+  font-style:italic;
+  opacity: 100%;
+}	
+
+.centeredbutton{
+	   color:white;
+	   background-color:grey;
+	   border-radius:2em;
+	   padding:0.8em;
+	   font-size:1em;
+	   font-weight:bold;
+	   border-style:none;
+	   padding-left:2em;
+	   padding-right:2em;
+	   margin-top:-1em;
+	   margin-left:10em;
+	   opacity: 100%;
+	   font-family:  montserrat;
+}
+
+.centeredbutton:hover{
+	        box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.centeredbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.centeredbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.centeredbutton:hover span {
+  padding-right: 25px;
+}
+
+.centeredbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}	
+	   
+
+
+nav li{
+		font-size: 0.75em;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: transparent;
+  margin-right: 1.5em;
+}
+
+li {
+  float: right;
+  margin-right: 2.5em;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-top:1em;
+  font-size: 17px;
+  font-weight: bold;
+  font-family:  montserrat;
+  text-decoration:none;
+}
+
+li a:hover {
+  color: grey;
+}
+
+
+.top-right a.active {
+				color: grey;
+				-webkit-transform: scale(0.8);
+				-ms-transform: scale(0.8);
+				transform: scale(0.8);
+}
+
+
+/*body content*/
+.topheading{
+			margin-top: 4em;
+			text-align:center;
+}	
+
+.topheading h2{
+				font-size:2.5em;
+				font-family:  montserrat;
+}
+
+.topheading p{
+			font-size:1.50em;
+			font-family:  montserrat;
+			
+}
+
+.cost{
+		margin-top:0em;
+}
+
+.left{
+		width:25%;
+}		
+
+.leftimage{
+		height: 25em;
+		margin-left:0em;
+		
+}	
+.middle{
+		width:65%;
+}	
+
+.middleimage{
+		height: 30em;
+		width:100%;
+		margin-left:28em;
+		margin-top:-25em;
+}
+
+.about{
+		width:100%;
+		background-color:grey;
+		margin-top:3em;
+		padding-bottom:2em;
+}
+
+.aboutbutton{
+			text-align:center;
+			margin-left:38em;
+			margin-top:1em;
+			background-color:black;
+			color:white;
+			border-radius:2em;
+			padding:0.8em;
+			font-size:1em;
+			font-weight:bold;
+			border-style:none;
+			padding-left:2em;
+			padding-right:2em;
+	        opacity: 100%;	
+			font-family:  montserrat;			
+}
+.aboutbutton:hover{
+	        box-shadow: 0 16px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.aboutbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.aboutbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.aboutbutton:hover span {
+  padding-right: 25px;
+}
+
+.aboutbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}	
+
+.partners{
+	width:100%;
+}
+
+.partnerscontainer1{
+					margin:2em;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding:2em;
+}
+
+.zoom {
+  background-color: white;
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.3); 
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); 
+}
+
+
+.footer{
+		clear:both;
+		background-color:black;
+		margin: -0.3em;
+		height:20em;
+}
+
+		
+		
+.footerlogo{
+		margin-top:3em;
+		margin-left:4em;
+		height:10em;	
+}	
+
+.footercontact{
+			margin-top:-4em;
+			margin-left:17em;
+			font-family:  montserrat;
+			text-align:center;
+			font-size: 1.50em;
+			color:white;
+}	
+
+.footercontact a{
+			margin-top:-4em;
+			font-family:  montserrat;
+			text-align:center;
+			font-size: 1em;
+			color:white;
+}			
+	
+/*****************************************************************************************/
+/*****************************************Specials Page **********************************/
+/*****************************************************************************************/
+
+.product-content {
+  text-align: center;
+  margin-top: 5em;	
+  background-color: white;
+  font-family:  montserrat;
+}
+
+.product-reasons {
+  text-align: center;
+  margin-top: 5em;	
+  background-color: white;
+  padding: 8px;
+  font-family:  montserrat;
+}
+
+
+.weekly-sales {
+  float: left;
+  width: 100%;
+  margin-top: 3em;
+  text-align: center;
+   background-color: white;
+}
+
+.product-weekly {
+	text-align: center;
+    margin-top: 2em;	
+	font-family:  montserrat;
+	color:black;
+}
+
+.productweekimage{
+		margin-top:2em;
+		width:100%;
+}
+
+.weeklyheading{
+		font-size:2.50em;
+		font-family:  montserrat;
+		text-align:center;
+		font-weight:bold;
+		font-style:italic;
+		margin-top:1.5em;
+}
+
+.weeklydescription{
+		font-size:1.50em;
+		font-family:  montserrat;
+		text-align:center;
+		margin-top:1.5em;
+}
+
+.Product-of-the-week-heading{
+	text-align:center;
+	font-family:  montserrat;
+	font-size:2.50em;
+	font-weight:bold;
+	font-style:italic;
+	margin-top:5em;
+	clear:both;
+}
+.product-of-the-week{
+	text-align:center;
+}
+
+.product-of-the-week h2{
+	margin-top:2.5em;
+	font-family:  montserrat;
+	font-size:2.5em;
+	
+}
+
+.description-heading {
+	font-family:  montserrat;
+	font-size:1.5em;
+
+}
+
+
+.product-of-the-week p{
+	font-family:  montserrat;
+	font-size:1.35em;
+	text-align:center;
+	
+}
+
+.product-of-the-week-image{
+	width:33%;
+	margin:5em;
+}
+
+.features{
+	background: #ffe5e5;
+	padding: 25px;
+	margin-left: 2em;
+	border-radius:2em;
+	
+}
+.features-heading {
+	font-family:  montserrat;
+	font-size:1.5em;
+
+}
+.features ul{
+	list-style-type: disc;  
+}
+.features li{
+		font-family:  montserrat;
+		margin-top:1.5em;	
+		font-size:1.35em;
+		color:black;
+		text-align:left;
+}	
+
+.price{
+		border:none;
+		background-color:white;
+		font-size:1.50em;
+		font-family:  montserrat;		
+}		
+
+/* Create four equal columns that floats next to each other */
+.productweekcolumn {
+  float: left;
+  width: 28%;
+  font-family:  montserrat;
+  margin:2em;  
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.productweekcontent {
+  background-color: white;
+  padding:2em;
+  font-family:  montserrat;
+}
+
+.productweekcontent p{
+  height:10em;
+  text-align:center;
+}
+
+.productweekzoom {
+  background-color: white;
+}
+
+.productweekzoom:hover {
+	background-color: black;
+	color:grey;
+	padding:2em;
+	margin-left:1em;
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+   width:100%;  
+}
+
+.costweekly{
+	font-size:1.35em;
+	font-weight:bold;
+}
+.costweekly span{
+	font-size:2em;
+	color:yellow;
+}
+
+.costproduct{
+	font-size:1.35em;
+	font-weight:bold;
+}
+
+.costproduct span{
+	font-size:2em;
+	color:black;
+}
+	
+
+/****carousel****/
+.trigger {
+  display: none;  
+}
+
+
+.slider, .slider-wrapper {
+  position: relative;
+  clear:both;
+}
+
+.slide {
+  background-color: white;
+  width: 40em;
+  overflow: hidden;
+  position: absolute;
+  height: 8em;
+  opacity: 0;
+  margin-left:30em;
+  transition: opacity .5s ease-in-out;
+}
+
+.trigger:checked + .slide {
+  z-index: 6000;
+  opacity: 1;
+}
+
+.slider-nav {
+  width: 50%;
+  text-align: center;
+  background-color: white;
+}
+
+.slider-nav__item {
+  display: inline-block;
+}
+
+.slider-nav__label {
+  font-size: 13px;
+  background-color: #333;
+  display: block;
+  line-height: 2em;
+  width: 2em;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: background-color .25s, color .25s ease-in-out;
+}
+
+.slider-nav__label:hover,
+.slider-nav__label:active,
+.slider-nav__label:focus {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width: 1024px) {
+  .slider, .slider-wrapper {
+    height: 130px;
+  }
+
+  .slide-caption {
+    width: 65%;
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+.slide {
+  position: absolute;
+  z-index: 5000;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.trigger:checked + .slide {
+  z-index: 6000;
+  opacity: 1;
+}	
+
+
+/* Create three equal columns that floats next to each other */
+.slide-column {
+  float: left; 
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}	
+/******End of Carousel*******/
+
+			
+
+
+
+
+
+
+
+

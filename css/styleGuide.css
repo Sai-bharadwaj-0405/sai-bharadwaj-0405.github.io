@@ -1,0 +1,127 @@
+.title,.description{
+	text-align:center;
+	color:white;
+}
+
+.title{
+	font-size:4em;
+	color:white;
+	text-decoration:underline;
+	
+}
+
+
+.headers_desc{
+	margin-left:1%;
+	text-decoration:underline;
+	text-align:center;
+	color:white;
+}
+
+.description{
+	margin-top:5%;
+}
+
+.headers,.font_desc{
+	margin-left:4%;
+	color:white;
+}
+
+.font_desc{
+	text-align:center;
+	color:white;
+}
+
+.headers{
+	text-align:center;
+	color:white;
+}
+
+.typography_title{
+	color:white;
+	margin-top:5%;
+	text-decoration:underline;
+	margin-left:1%;
+	text-align:center;
+	font-size:3em;
+	color:white;
+}
+
+body{
+	background:black;
+}
+
+a{
+	color:white;
+}
+
+.para{
+text-align:center;	
+}
+
+.color_palette{
+	color:white;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+}
+
+.images{
+	width:50%;
+	margin-left:20%;
+	margin-right:auto;
+}
+
+.error_heading{
+margin-left:4%;	
+text-align:center;
+color:white;
+}
+
+
+
+.logo{
+	  height:14em;
+	  margin-left:40em;
+	  margin-top:1.5em;  
+	  
+}
+
+.image{
+	width:60%;
+	margin-left:15%;
+	margin-right:15%;
+	height:30em;
+	margin-bottom:1%;
+}
+
+.color{
+	color:white;
+	font-size:1.2em;
+	clear:both;
+	margin-top:10em;
+}
+
+.button{
+	   color:white;
+	   background-color:grey;
+	   border-radius:2em;
+	   padding:0.8em;
+	   font-size:1em;
+	   font-weight:bold;
+	   border-style:none;
+	   padding-left:2em;
+	   padding-right:2em;
+	   margin-top:3em;
+	   margin-left:30em;
+	   opacity: 100%;
+	   font-family:  montserrat;
+}
+.fields{
+	border-radius: 2em;
+}
+
+.legend{
+	text-align:center;
+}

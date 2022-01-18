@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>STEELIX IRONS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/css/contact.css">
+			<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="container">
+		<header>
+		
+			<div class="topcover">
+				<img class="topcover" src="/images/contactus.jpg" alt="steelix irons">
+				
+					<div class="top-left">
+						<img class="logo" src="/images/logo123.png" alt="steelix irons" href="index.html">	
+					</div>	
+					
+						<div class="top-right">
+							<ul>
+								<li><a  href="training.html">TRAINING</a></li>
+								<li><a	class="active" href="contact.html">CONTACT</a></li>
+								<li><a	href="team.html">TEAM</a></li>
+								<li><a  href="about.html">ABOUT US</a></li>
+								<li><a  href="product.html">PRODUCTS</a></li>
+								<li><a  href="specials.html">SPECIALS</a></li>
+								<li><a   href="index.html">HOME</a></li>
+							</ul>	
+						</div>
+						
+						<div class="centered">
+							<h1>Steelix Irons For Clothing Irons Delivery</h1>
+							<button class="centeredbutton" onclick="about.html"><span>WHAT IS STEELIX IRON'S</span> </button>
+						</div>
+			</div>	
+		</header>
+	</div>
+			<div class="form">
+				<p><i>Have Questions?.. Contact Us by filling form below.</i></p>
+			<form action="home.html" method="post" name="information">
+				<fieldset>
+				<legend>1. Personal Information</legend>
+				<label class="name" for="firstName">First Name:</label>
+				<input type="text" name="firstName" id="firstName" placeholder="Your First Name" size="30" maxlength="30" autofocus required>
+		
+				<label for="lastName">Last Name:</label>
+				<input type="text" name="lastName" id="lastName"  value="Valued Customer Last Name"  maxlength="30" size="30" required><br>
+				
+				<label class="dob" for="DOB">Date Of Bith:</label>
+				<input type="date" name="DOB" id="DOB" value="2019-11-17" min="1947-01-01" required><br>
+				
+				<label class="gender" for="gender">Gender:</label>
+				<input type="radio" name="gender" id="gender" value="Male" checked ><b>Male<b>
+				<input type="radio" name="gender" id="gender" value="Female"><b>Female<b>
+				<input type="radio" name="gender" id="gender" value="Others"><b>Others<b><br>
+				
+				<label class="membership" for="membership">Membership Number:</label>
+				<input type="text" name="membership" id="membership"  placeholder="S#9999999"  maxlength="30" size="30" required><br>
+				
+				<label class="email" for="email">Email Address:</label>
+				<input type="email" name="email" id="email" placeholder="abc@randommail.com" size="30" autocomplete="off" required><br>
+		
+				<label class="phno" for="phone">Phone Number:</label>
+				<input type="tel" name="phone" id="phone" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required ><br>
+				
+				<label class="country" for="country">Country:</label>
+					<select id="country" name="country" required>
+						<option value="canada">Canada</option>
+						<option value="india">India</option>
+						<option value="mexico">Mexico</option>
+						<option value="usa">USA</option>	
+					</select><br>
+				</fieldset>
+				
+			<div class="reasonsform">
+				<fieldset>
+				<legend>2. More Information</legend>
+				<label  class="reason" for="reason">Reason For Contacting Us:</label>
+				<input  list="reason" placeholder="Choose" required>
+				<datalist class="" name="reason" id="reason">
+					<option value="Delivery Issue">
+					<option value="Refund Issue">
+					<option value="Returning a Product">
+					<option value="Other">
+				</datalist><br>
+				
+				<label class="fileupload" for="file">Please Upload The Invoice:</label>
+				<input type="file" name="file" id="file" multiple><br>
+				
+				<label class="imageupload" for="image">Please Upload The Image:</label>
+				<input type="file" name="image" id="image" multiple><br>
+				
+				<label class="quantity" for="quantity">No.Of Product(s) Purchased at the time of purchase:</label>
+				<input type="number" name="quantity" id="quantity"  placeholder="Choose" min="1" max="20"  required><br>
+				
+				
+				
+				<label class="contactyou">How Can We Contact you:</label>
+				<input type="checkbox"  name="contactyou" id="contactyou" checked>Email
+				<input type="checkbox"  name="contactyou" id="contactyou">Phone Call
+				<input type="checkbox"  name="contactyou" id="contactyou">Text Message<br>
+				
+				<div class="feedback">
+					<label  class="feedback" for="questions">Feedback:</label><br>
+					<textarea class="areabox" id="questions" name="questions" rows="10" cols="50"></textarea><br>
+				</div>
+					
+			</fieldset>
+					
+			</div>	
+		
+				<button type="submit">Submit</button>
+				<button type="reset" onclick="alert('Page has been Reset!!!')">Reset</button>
+			</form>	
+			</div>
+	<div class="footer">
+			<div class="footerlogo">
+				<img class="footerlogo" src="/images/logo123.png" alt="steelix irons" href="index.html">
+			</div>	
+			
+			<div class="footercontact">
+				<p>LET'S CONNECT</p>
+				<p><a href="tel:1-519-339-9495">1-519-339-9495</a></p>
+				<p class="mails"><a id="mail" href="mailto:steelixirons@gmail.com">Email Us</a></p>
+			</div>	
+	</div>
+	
+</body>
+</html>
